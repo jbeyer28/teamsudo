@@ -15,7 +15,7 @@ if($_COOKIE['user'] != null){
 	echo '<script>
 				document.cookie = "user='.$cookie.'; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; SameSite=flex;";
 				</script>';
-	echo '<meta http-equiv="refresh" content="0; url=\'index.html\'" />';
+	echo '<meta http-equiv="refresh" content="0; url=\'index.php\'" />';
 	
 }
 else{
